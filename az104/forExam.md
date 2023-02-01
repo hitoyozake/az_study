@@ -3,5 +3,7 @@ Azure Resoure Managerをダウンロード，エクスポート，中身の確�
 ARMを使えばマシンの複製や，複製してカスタマイズするなどがjsonで行える.
 
 
+# VMの可用性セットを組んでいる場合，設定を変えるには全部のVMを止めないとだめ
+ - VMにネットワークカードを追加する時はVMを停止する必要がある
 
-
+# 新しいVMを作り，自動的にVMをセットアップするためのpowershellのスクリプトを作った場合，SetupComplete.cmd batchファイルを %windir%/setup/scripts に置く
